@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 40px 90px;
+  color: #636363;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-weight: 600;
+}
+
+.brand-name span {
+  color: #c1c1c1;
+}
+
+nav ul {
+  display: flex;
+  gap: 37px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #636363;
+}
+
+nav ul li a:hover {
+  color: #c1c1c1;
+}
+
+nav ul li a:target {
+  color: #c1c1c1;
+}
+
+section#home {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  flex: 1;
+  text-align: right;
+}
+
+aside img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid brown;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: scale;
+  -moz-transform: scale;
+  -ms-transform: scale;
+  -o-transform: scale;
+}
+
+article {
+  text-align: left;
+  flex: 2;
+}
+
+article .greeting {
+  font-family: "Pacifico", cursive;
+  font-size: 4em;
+  letter-spacing: 8px;
+  font-weight: 600;
+}
+
+article p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #636363;
+  align-items: center;
+  padding: 40px;
+}
+
+img {
+  width: 800px;
+  margin: 40px;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+}
