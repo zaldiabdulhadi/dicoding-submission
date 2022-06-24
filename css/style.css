@@ -70,10 +70,6 @@ aside img {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-transform: scale;
-  -moz-transform: scale;
-  -ms-transform: scale;
-  -o-transform: scale;
 }
 
 article {
